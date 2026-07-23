@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'helvetica neue';
+}
+html,
+body{
+  height:100%;
+  width:100%;
+}
+body{
+  background-color: black;
+  color: white;  
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width:200px;
+  color:whitesmoke;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: centre;
+  border-radius:10px;
+  background-color: #333;
+}
+.card p{
+  margin:20px 0px;
+}
+.card button{
+  padding:10px 20px;
+  background-color: rgb(103, 94, 233);
+  color:white;
+  border:none;
+  border-radius:5px;
+}
+.card img{
+  
+}
