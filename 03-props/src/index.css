@@ -17,6 +17,7 @@ body{
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .card{
   width:200px;
@@ -25,7 +26,7 @@ body{
   padding: 20px;
   text-align: centre;
   border-radius:10px;
-  background-color: #333;
+  background-color: #222;
 }
 .card p{
   margin:20px 0px;
@@ -38,5 +39,9 @@ body{
   border-radius:5px;
 }
 .card img{
-  
+  height: 100px;
+  width: 170px;
+  padding: 0px;
+  object-fit: cover;
+  border-radius: 10px;
 }
