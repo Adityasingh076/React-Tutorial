@@ -1,0 +1,11 @@
+.btn{
+  background-color: plum;
+  width: 200px;
+  height:100px;
+  padding: 20px;
+  margin:20px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+}
+
