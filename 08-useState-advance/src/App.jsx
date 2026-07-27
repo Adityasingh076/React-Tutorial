@@ -17,12 +17,12 @@ const App = () => {
     newNum.age=26;
     setnums(newNum);
     console.log(newNum);
+    // console.log(setnums)
   }
 
 
 
   const [first, setfirst] = useState([10,20,30])
-
   const arraybtn = ()=>{
     const newarr=[...first];
     newarr.push(58);
