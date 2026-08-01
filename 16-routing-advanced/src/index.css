@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+   color: whitesmoke;
+}
+.nav-div{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.div{
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: rgb(228, 44, 44);
+}
+h2{
+  font-size:30px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+a{
+  font-size: larger;
+  font-weight: bold;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+
+
+.footer{
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+
+}
+h3{
+  justify-content: space-between;
+}
+h1{
+  font-size: 100px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-decoration: underline;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.notfound{
+  color: rgb(211, 28, 28);
+}
+.p-div{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+.p-div Link{
+  font-size: larger;
+  font-weight:900;
+}
+.btn{
+  border: 3px solid rgb(231, 50, 50);
+  background-color: rgb(230, 61, 61);
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+
